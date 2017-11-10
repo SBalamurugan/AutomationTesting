@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Success : DropdownSelection]]>
+    </line>
+    <line>
+      <![CDATA[Success : DropdownSelection]]>
+    </line>
+  </reporter-output>
+  <suite name="TrackX.truelocate1 Suite" duration-ms="59084" started-at="2017-11-10T13:29:45Z" finished-at="2017-11-10T13:30:44Z">
+    <groups>
+    </groups>
+    <test name="TrackX.truelocate1 test" duration-ms="59084" started-at="2017-11-10T13:29:45Z" finished-at="2017-11-10T13:30:44Z">
+      <class name="com.trackx.truelocate.flow.UserCreateFlow">
+        <test-method status="PASS" signature="excelCreation()[pri:0, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="excelCreation" is-config="true" duration-ms="100" started-at="2017-11-10T18:59:45Z" finished-at="2017-11-10T18:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelCreation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="setUp" is-config="true" duration-ms="8681" started-at="2017-11-10T18:59:45Z" finished-at="2017-11-10T18:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="siteclickflow(java.lang.String, java.lang.String)[pri:1, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="siteclickflow" duration-ms="14906" started-at="2017-11-10T18:59:54Z" data-provider="getData" finished-at="2017-11-10T19:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rb.admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteclickflow -->
+        <test-method status="PASS" signature="userCreationFlow(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="userCreationFlow" duration-ms="29092" started-at="2017-11-10T19:00:09Z" data-provider="getData" finished-at="2017-11-10T19:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test9user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9578070937]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Swiss]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Corporate Portal]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Corp Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Success : DropdownSelection]]>
+            </line>
+            <line>
+              <![CDATA[Success : DropdownSelection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userCreationFlow -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="quitDriver" is-config="true" duration-ms="6347" started-at="2017-11-10T19:00:38Z" finished-at="2017-11-10T19:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.trackx.truelocate.flow.UserCreateFlow@a3d8174]" name="suiteTearDown" is-config="true" duration-ms="38" started-at="2017-11-10T19:00:44Z" finished-at="2017-11-10T19:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.trackx.truelocate.flow.UserCreateFlow -->
+    </test> <!-- TrackX.truelocate1 test -->
+  </suite> <!-- TrackX.truelocate1 Suite -->
+</testng-results>
